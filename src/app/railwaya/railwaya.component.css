@@ -1,0 +1,88 @@
+
+
+.body{
+   
+   box-sizing: border-box;
+   font-family:'Times New Roman', Times, serif;
+
+}
+.table{
+      width: 100%;
+      border:2px solid green;
+}
+.table tr{
+    border: 1px solid gray;
+    font-weight: 500;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+}
+.table td{
+   height: 8px;
+   border: 1px solid gray;
+   font-weight: 400;
+   font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.theader{
+    font-size: 20px  ;
+    font-weight: bolder;
+    color: white;
+    padding: 2px;
+    background-color: forestgreen;
+    
+}
+.thbody{
+    font-size: 17px;
+}
+.bodyfoot{
+    font-size: 14px;
+   
+}
+
+ span{
+    font-weight: 400;
+    font-size: 17px;
+ }
+ .warping{
+   margin-top: 2rem;
+   padding: 2rem;
+   border:10px solid rgb(9, 168, 9);
+ }
+ .title{
+    font-size: 30px;
+ }
+ .title2{
+    padding-left: 2rem;
+ }
+ .shohoz{
+    font-weight: 10rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 168, 9);
+    
+ }
+ .jv{
+    
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: rgb(9, 168, 9);
+
+ }
+ .print{
+    font-size: 20px;
+    font-family: sans-serif ,'Times New Roman', Times, serif;
+ }
+
+
+
+
+
+
+
+
+
+
+
+  
+  

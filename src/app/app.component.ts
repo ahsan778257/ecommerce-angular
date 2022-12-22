@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Myfirst-project';
+
+
+public increaseNumber: string =""
+
+
+
+increase(){
+  this.increaseNumber = this.increaseNumber +1 ;
+}
+
+
+
+
+
+
+
 }

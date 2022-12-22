@@ -1,0 +1,36 @@
+.footers{
+    background-color: black;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    color: yellow;
+
+}
+.footers h1{
+    color: white;
+    text-decoration: skyblue;
+    text-transform: capitalize;
+    text-overflow: clip;
+}
+
+.footers a {
+    margin: auto;
+    padding: 7px;
+    padding-top: 10px;
+    color: yellow;
+    
+}
+.footers a:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.footers i{
+    margin-top: 5px;
+    padding: 7px;
+
+}
+.footers i:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}

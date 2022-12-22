@@ -13,6 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash"
+           ],
             "outputPath": "dist/myfirst-project",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -23,6 +26,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -62,6 +66,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "Myfirst-project:build",
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
               "browserTarget": "Myfirst-project:build:production"
@@ -92,7 +100,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["../node_modules/jspdf/dist/jspdf.min.js",
+            "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+              
+
+            ]
           }
         }
       }

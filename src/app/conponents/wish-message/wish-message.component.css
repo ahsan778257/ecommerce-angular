@@ -1,0 +1,9 @@
+.container{
+    margin: auto;
+    padding: 20px;
+
+}
+.card{
+    box-shadow: 20px;
+    background: linear-gradient(black,yellow);
+}

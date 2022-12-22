@@ -1,0 +1,38 @@
+<section class="mt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-title">
+                        Theme Selector 
+
+                        <div class="form-check form-switch">
+                            <input 
+                            name="darkTheme"
+                            
+                            [(ngModel)]="darkTheme"
+                            class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+                          </div>
+                    
+                       
+                    </div>
+                    <div class="card-body" [class.bg-dark]="darkTheme" [class.text-light]="darkTheme">
+                        <img [src]="image" alt="" width="520">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolore sit? Hic incidunt velit, quo voluptates totam doloremque placeat nam nulla qui quisquam, officiis vel dolore voluptate ipsa soluta mollitia!
+                        
+                    </div>
+                    <div class="card-footer">
+                        them dard mode
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+

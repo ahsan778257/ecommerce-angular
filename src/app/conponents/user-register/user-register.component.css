@@ -1,0 +1,42 @@
+.signup{
+    border-radius: 15px;
+    margin:  0 auto;
+    padding: 5px;
+    background-color: rgb(187, 76, 221);
+}
+.signup label{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.signup-title{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   font-weight: bold;
+   color: black; 
+}
+#ligin-form{
+    text-align: right;
+}
+.form-control{
+    border-radius: 30px;
+
+}
+
+.btn{
+    background-color: rgb(12, 227, 235);
+}
+.btn:hover{
+    background-color: red;
+}
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(229, 255, 0);
+}
+.signup a:hover{
+    color: red;
+    border: 1px solid black;
+}

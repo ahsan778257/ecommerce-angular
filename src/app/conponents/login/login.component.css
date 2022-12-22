@@ -1,0 +1,30 @@
+.login{
+    border-radius: 10px;
+    background-color: #aa30aa;
+    color: #fff;
+    
+}
+.login label{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-control{
+    border-radius: 20px;
+}
+.btn{
+    background-color: rgb(18, 222, 236);
+
+}
+.btn:hover{
+    background-color: red;
+}
+.login a{
+    text-decoration: none;
+
+}
+.login a:hover{
+    color: red;
+    border: 1px solid black;
+}

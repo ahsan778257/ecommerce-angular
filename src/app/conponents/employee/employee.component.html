@@ -1,0 +1,67 @@
+<section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <div class="card-title">This is Employee list</div>
+                        <div class="card-body">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead class="bg-success">
+                                    <tr >
+                                        <td>Sno</td>
+                                        <td>Name</td>
+                                        <td>Email</td>
+                                        <td>Password</td>
+                                        <td>Created at</td>
+                                        <td>Updated at</td>
+                                    </tr>
+                                </thead>
+                               <tbody *ngIf="Employees.length">
+                               
+                                    <tr *ngFor="let employee of Employees ">
+                                        <td>{{ employee.id}}</td>
+                                        <td>{{ employee.name}}</td>
+                                        <td>{{ employee.email}}</td>
+                                        <td>{{ employee.password}}</td>
+                                        <td>{{ employee.created_at}}</td>
+                                        <td>{{ employee.updated_at}}</td>
+                                        <td> 
+                                            <button type="button" class="btn btn-primary" routerLink="/edit/{{employee.id}}">Edit</button>&nbsp;
+                                            <button type="button" class="btn btn-success" routerLink="/delete/{{ employee.id}}">Delete</button>
+                                        </td>
+                                        
+
+                                    </tr>
+
+                               </tbody>
+                                
+                                    
+                                      
+
+
+
+                            </table>
+
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</section>

@@ -1,0 +1,28 @@
+<section class="mt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-secondary text-light text-center">Form Binding</div>
+                    <div class="card-body align-content-center">
+                        <form >
+                            <label for="username">Username</label>
+                            <input type="text" 
+                            name="username"
+                            [(ngModel)]="username"
+                            id="username">
+                            <h1>
+                                {{ username }}
+                            </h1>
+            
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+

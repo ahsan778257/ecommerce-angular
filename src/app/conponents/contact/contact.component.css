@@ -1,0 +1,25 @@
+.contact-form{
+    background-color: thistle;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 8px;
+
+}
+.form-control{
+    border-radius: 20px;
+}
+.contact-address{
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.contact-address i{
+    margin: auto;
+    padding: 5px;
+    font-size: 30px;
+
+}
+.contact-address i:hover{
+    background-color: rgb(86, 86, 238);
+    border-radius: 50%;
+}

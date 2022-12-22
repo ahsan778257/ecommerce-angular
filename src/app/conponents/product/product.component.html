@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <h1 class="card-title text-center text-danger">Product list</h1>
+                <div class="card-body">
+                    <table class="table table-bordered table-secondary table-striped">
+                        <thead>
+                        <tr class="border-1">
+                            <td>Sno</td>
+                            <td>Name</td>
+                            <td>Image</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                            <td>Total</td>
+                        </tr>
+                    </thead>
+                        
+                        <tbody>
+                            <tr *ngFor="let product of products">
+                                <td>{{ product.sno }}</td>
+                                <td>{{ product.name }}</td>
+                                <td> <img [src]="product.image" alt="" height="80" width="100"></td>
+                                <td>{{ product.price |currency:'BDT' }}</td>
+                                <td>
+                                    <button (click)="decQty(product.sno)"  type="button" class="btn btn-danger">-</button>
+                                    {{ product.quantity}}
+                                    <button (click)="incQty(product.sno)" type="button" class="btn btn-primary">+</button>
+                                </td>
+                                <td>{{product.price * product.quantity |currency:'BDT'}}</td>                
+                            </tr>
+                            <tr>
+                                <td colspan="5">Grand Total</td>
+                                <td>{{calGrandTotal()|currency:'BDT'}}</td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
